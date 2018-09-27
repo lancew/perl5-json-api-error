@@ -37,12 +37,15 @@
       },
       "runtime" : {
          "requires" : {
+            "Moo" : "1.006000",
+            "Types::Standard" : "0",
             "perl" : "5.008005"
          }
       },
       "test" : {
          "requires" : {
-            "Test::More" : "0.96"
+            "Test::More" : "0.96",
+            "Test::Pod" : "0"
          }
       }
    },
@@ -59,6 +62,9 @@
       }
    },
    "version" : "0.01",
+   "x_contributors" : [
+      "Paul Williams <kwakwaversal@gmail.com>"
+   ],
    "x_generated_by_perl" : "v5.24.2",
    "x_serialization_backend" : "Cpanel::JSON::XS version 4.06",
    "x_static_install" : 1
